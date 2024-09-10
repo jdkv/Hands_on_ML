@@ -1,0 +1,20 @@
+# What is ML? - ML is the science (and art) of programming computers so they can learn from data. A more engineering oriented definition is - A computer program is said to 
+learn from experience E (training data) with respect to some task T and a performance measure P, if its performance on T as measred by P improves with experience E.
+#Applying ML tenchiques to dig into large amounts of data can help discover patterns that were not immediately apparent. this is called data mining
+# 1 Machine learning is great for problems that require a lot of hand-tuning or a long list of rules that needs to be updated on a regular basis.
+  one ML algorithm can often simplify code and perform better
+# 2 Complex ML problems for which there is no good solution at all using a traditional approach. the best ML techniques can find a solution. 
+# 3 Fluctuating environments - An ML system can adapt to new data (like incase of a spam detector, if the spam emails containing "4U" are getting blocked, they might start
+writing "FOR U" instead, a spam filter based on ML automatically notices that "FOR U" has become frequent in spam flagged by users, and it starts flagging them without your 
+intervention
+# 4 Getting insights about complex problems and large amounts of data. ML can help humans learn. ML algorthms (not all) can be inspected to see what they have learned. For example,
+  once the span filter has been trained on enough spam, it can easily be inspected to reveal the list of words and combination of words that it believes are the best predictors of 
+spam. Sometimes this will reveal unsuspected correlations or new trends and thereby lead to a better understanding of the problem.
+
+# Broad categories of machine lerning systems 
+  1 whether or not they are trained with human supervision (supervised, unsupervised, semisupervised and Reinforcement learning)
+  2 whether or not they can learn incrementally on the fly (online vs batch learning)
+  3 whether they work by simply comparing new data points to known data points, or instead detect patterns in the training data and build a predictive model, much like scientists
+  do (instance-based vs model-based learning).
+these criteria are not exclusive, and can be combined in any which way we like. For example, a state of the art spam filter may learn on the fly using a deep neural network trained
+using examples of spam and ham. this makes it an online, model-based, supervised learning system. 
