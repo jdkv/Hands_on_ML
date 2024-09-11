@@ -18,3 +18,5 @@ spam. Sometimes this will reveal unsuspected correlations or new trends and ther
   do (instance-based vs model-based learning).
 these criteria are not exclusive, and can be combined in any which way we like. For example, a state of the art spam filter may learn on the fly using a deep neural network trained
 using examples of spam and ham. this makes it an online, model-based, supervised learning system. 
+
+# Supervised and 
